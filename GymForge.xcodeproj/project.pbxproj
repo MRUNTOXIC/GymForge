@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000064 /* Views/RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000001 /* Views/RootView.swift */; };
+		000000000000000000000065 /* Views/Progress/ProgressViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000002 /* Views/Progress/ProgressViewScreen.swift */; };
+		000000000000000000000066 /* Views/Exercises/ExerciseLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000003 /* Views/Exercises/ExerciseLibraryView.swift */; };
+		000000000000000000000067 /* Views/Home/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000004 /* Views/Home/HomeView.swift */; };
+		000000000000000000000068 /* Views/Profile/ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000005 /* Views/Profile/ProfileView.swift */; };
+		000000000000000000000069 /* Views/Workout/WorkoutSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000006 /* Views/Workout/WorkoutSessionView.swift */; };
+		00000000000000000000006A /* Views/Workout/WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000007 /* Views/Workout/WorkoutView.swift */; };
+		00000000000000000000006B /* Components/TreadmillCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000008 /* Components/TreadmillCard.swift */; };
+		00000000000000000000006C /* Components/RestTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000009 /* Components/RestTimerView.swift */; };
+		00000000000000000000006D /* Components/ExerciseMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000A /* Components/ExerciseMediaView.swift */; };
+		00000000000000000000006E /* Components/ExerciseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000B /* Components/ExerciseCard.swift */; };
+		00000000000000000000006F /* Components/PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000C /* Components/PrimaryButton.swift */; };
+		000000000000000000000070 /* Utilities/WorkoutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000D /* Utilities/WorkoutData.swift */; };
+		000000000000000000000071 /* Utilities/Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000E /* Utilities/Theme.swift */; };
+		000000000000000000000072 /* App/GymForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000F /* App/GymForgeApp.swift */; };
+		000000000000000000000073 /* Models/Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000010 /* Models/Models.swift */; };
+		A0000000000000000000000F /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000E /* Assets */; };
+		D984816430869B49004E6E7D /* Assets 2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D984816330869B49004E6E7D /* Assets 2.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000001 /* Views/RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/RootView.swift; sourceTree = "<group>"; };
+		000000000000000000000002 /* Views/Progress/ProgressViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Progress/ProgressViewScreen.swift; sourceTree = "<group>"; };
+		000000000000000000000003 /* Views/Exercises/ExerciseLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Exercises/ExerciseLibraryView.swift; sourceTree = "<group>"; };
+		000000000000000000000004 /* Views/Home/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Home/HomeView.swift; sourceTree = "<group>"; };
+		000000000000000000000005 /* Views/Profile/ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Profile/ProfileView.swift; sourceTree = "<group>"; };
+		000000000000000000000006 /* Views/Workout/WorkoutSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Workout/WorkoutSessionView.swift; sourceTree = "<group>"; };
+		000000000000000000000007 /* Views/Workout/WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Workout/WorkoutView.swift; sourceTree = "<group>"; };
+		000000000000000000000008 /* Components/TreadmillCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/TreadmillCard.swift; sourceTree = "<group>"; };
+		000000000000000000000009 /* Components/RestTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/RestTimerView.swift; sourceTree = "<group>"; };
+		00000000000000000000000A /* Components/ExerciseMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/ExerciseMediaView.swift; sourceTree = "<group>"; };
+		00000000000000000000000B /* Components/ExerciseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/ExerciseCard.swift; sourceTree = "<group>"; };
+		00000000000000000000000C /* Components/PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/PrimaryButton.swift; sourceTree = "<group>"; };
+		00000000000000000000000D /* Utilities/WorkoutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/WorkoutData.swift; sourceTree = "<group>"; };
+		00000000000000000000000E /* Utilities/Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/Theme.swift; sourceTree = "<group>"; };
+		00000000000000000000000F /* App/GymForgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/GymForgeApp.swift; sourceTree = "<group>"; };
+		000000000000000000000010 /* Models/Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Models.swift; sourceTree = "<group>"; };
+		A0000000000000000000000C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0000000000000000000000D /* GymForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0000000000000000000000E /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		D984816330869B49004E6E7D /* Assets 2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 2.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000005 /* GymForge */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000000C /* Info.plist */,
+				A0000000000000000000000E /* Assets */,
+				000000000000000000000001 /* Views/RootView.swift */,
+				000000000000000000000002 /* Views/Progress/ProgressViewScreen.swift */,
+				000000000000000000000003 /* Views/Exercises/ExerciseLibraryView.swift */,
+				000000000000000000000004 /* Views/Home/HomeView.swift */,
+				000000000000000000000005 /* Views/Profile/ProfileView.swift */,
+				000000000000000000000006 /* Views/Workout/WorkoutSessionView.swift */,
+				000000000000000000000007 /* Views/Workout/WorkoutView.swift */,
+				000000000000000000000008 /* Components/TreadmillCard.swift */,
+				000000000000000000000009 /* Components/RestTimerView.swift */,
+				00000000000000000000000A /* Components/ExerciseMediaView.swift */,
+				00000000000000000000000B /* Components/ExerciseCard.swift */,
+				00000000000000000000000C /* Components/PrimaryButton.swift */,
+				00000000000000000000000D /* Utilities/WorkoutData.swift */,
+				00000000000000000000000E /* Utilities/Theme.swift */,
+				00000000000000000000000F /* App/GymForgeApp.swift */,
+				000000000000000000000010 /* Models/Models.swift */,
+				A00000000000000000000006 /* Products */,
+				D984816330869B49004E6E7D /* Assets 2.xcassets */,
+			);
+			path = GymForge;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000000D /* GymForge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000002 /* GymForge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000007 /* Build configuration list for PBXNativeTarget "GymForge" */;
+			buildPhases = (
+				A00000000000000000000003 /* Sources */,
+				A00000000000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymForge;
+			productName = GymForge;
+			productReference = A0000000000000000000000D /* GymForge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					A00000000000000000000002 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A00000000000000000000007 /* Build configuration list for PBXNativeTarget "GymForge" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000005 /* GymForge */;
+			productRefGroup = A00000000000000000000006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000002 /* GymForge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D984816430869B49004E6E7D /* Assets 2.xcassets in Resources */,
+				A0000000000000000000000F /* Assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000064 /* Views/RootView.swift in Sources */,
+				000000000000000000000065 /* Views/Progress/ProgressViewScreen.swift in Sources */,
+				000000000000000000000066 /* Views/Exercises/ExerciseLibraryView.swift in Sources */,
+				000000000000000000000067 /* Views/Home/HomeView.swift in Sources */,
+				000000000000000000000068 /* Views/Profile/ProfileView.swift in Sources */,
+				000000000000000000000069 /* Views/Workout/WorkoutSessionView.swift in Sources */,
+				00000000000000000000006A /* Views/Workout/WorkoutView.swift in Sources */,
+				00000000000000000000006B /* Components/TreadmillCard.swift in Sources */,
+				00000000000000000000006C /* Components/RestTimerView.swift in Sources */,
+				00000000000000000000006D /* Components/ExerciseMediaView.swift in Sources */,
+				00000000000000000000006E /* Components/ExerciseCard.swift in Sources */,
+				00000000000000000000006F /* Components/PrimaryButton.swift in Sources */,
+				000000000000000000000070 /* Utilities/WorkoutData.swift in Sources */,
+				000000000000000000000071 /* Utilities/Theme.swift in Sources */,
+				000000000000000000000072 /* App/GymForgeApp.swift in Sources */,
+				000000000000000000000073 /* Models/Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = ADS7TRMFGL;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GymForge/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.gymforge.2026;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A00000000000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = ADS7TRMFGL;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GymForge/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.gymforge.2026;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000007 /* Build configuration list for PBXNativeTarget "GymForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000008 /* Debug */,
+				A00000000000000000000009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}
